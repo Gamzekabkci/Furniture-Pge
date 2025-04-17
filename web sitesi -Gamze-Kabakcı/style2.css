@@ -1,0 +1,33 @@
+.altsayfa_resim{
+   
+    background-color: rgb(95, 128, 128); 
+    height: 456px;
+    width: 756px;
+    margin: 50px 70px 100px 50px;
+    float:left;
+    border-style:solid;
+    border-radius: 2px;
+    border-width: 3px;
+    border-color: rgb(88, 84, 84);
+}
+.fiyat_bilgi{
+    /*background-color: rgb(189, 184, 184);   */
+    height: 430px;
+    width: 450px;
+    margin-left: 50px;
+    margin-bottom: 90px;
+    margin-top: 45px;
+    float:left;
+}
+.button_sepeteekle {
+    background-color: #378267;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20px 10px 40px;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    }
+.çizgi{
+    width:500px;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sipariş Takip</title>
+    <style>
+    .sipariştakipform{
+        height: 400px;
+        width: 650px;
+        background-color: rgb(255, 255, 255);
+        margin:50px 50px 50px 50px;
+        display:inline-flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input[type=text], input[type=email] {
+         width: 340px;
+         height: 12px;
+         padding: 12px 20px;
+         margin: 10px 10px 10px 10px;
+        display: inline-block;
+        border: 1px solid #c2bfbf;
+        box-sizing:content-box;
+   }
+    button {
+        background-color: #04AA6D;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 20px 20px 240px;
+        border: none;
+        cursor: pointer;
+        width: 150px;
+    }
+    button:hover {
+        opacity: 0.8;
+   }
+   .gruplar{
+        height: 50px;
+        width: 100%;
+        margin: 30px 30px 0px 0px;
+    }
+    .gruplar ul li{
+        padding: 4px;
+        margin-top: 10px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-left: 30px;
+        font-size:small;
+    }
+    .gruplar ul li a{
+        text-decoration: none;
+        color: rgb(136, 135, 135);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    .gruplar ul li a:hover{
+        color: #455c4d;
+    }
+    .logo{
+        height: 300px;
+        width: 500px;
+        margin: 10px 30px 30px 30px;
+        background-color: #6b7d71;
+        display:inline-flex;
+    }
+
+    </style>
+</head>
+
+<body>
+    <div class="slogan">
+        LOGO VE SLOGAN
+    </div>      
+    <div class="navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/anasayfa.html#"><i class="fa-solid fa-house-chimney"></i>Anasayfa</a></li>
+            <li><a href="#"><i class="fa-solid fa-tags"></i></i>Kampanyalar</a></li>
+            <li><a href="#"><i class="fa-solid fa-shop"></i>Mağazalarımız</a></li>
+            <li><a href="http://127.0.0.1:5500/ileti%C5%9Fimsayfas%C4%B1.html"><i class="fa-regular fa-address-book"></i>İletişim</a></li>
+            <li><a href="http://127.0.0.1:5500/hakk%C4%B1m%C4%B1zda.html"><i class="fa-regular fa-address-card"></i>Hakkımızda</a></li>
+            <li><a href="http://127.0.0.1:5500/%C5%9Fipari%C5%9Ftakip.html#"><i class="fa-solid fa-truck-arrow-right"></i>Sipariş Takip</a></li>
+            <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Sepetim</a></li>
+            <li><a href="#"><i class="fa-solid fa-user"></i>Üye Girişi</a></li>
+        </ul>
+    </div>
+    
+    <div class="gruplar">
+        <ul>
+            <li><a href="#">OTURMA GRUPLARI</a></li>
+            <li><a href="#">ÇOCUK VE GENÇ ODASI</a></li>
+            <li><a href="#">YEMEK ODASI</a></li>
+            <li><a href="#">YATAK ODASI</a></li>
+            <li><a href="#">YATAK VE BAZA</a></li>
+            <li><a href="#">BAHÇE TAKIMLARI</a></li>
+            <li><a href="#">TAMAMLAYICI ÜRÜNLER</a></li>
+        </ul>
+
+    </div>
+    <hr style="margin:0px 0px 0px 0px; color: #082338;">
+    
+        <br><br><br>
+        <h3 style="margin-left: 20px;">Sipariş Takip Formu</h3><br><br>
+         <div class="sipariştakipform">
+            <form>
+                <label style="margin: 3px 3px 3px 10px; font-size: small;">Sipariş No</label><br>
+                <input type="text" ><br>
+                <label style="margin: 3px 3px 3px 10px; font-size: small;">Email</label><br>
+                <input type="email"><br>
+                <button type="submit">Sipariş Bul</button>
+
+            </form>
+       </div>
+       <div class="logo">
+        <h1>LOGO</h1>
+       </div>
+       <div class="footer">
+        <div class="footerkategori">
+            <div class="kategori1">
+                <p>OTURMA GRUPLARI</p>
+                <ul>
+                    <li><a href="#">Koltuk Takımları</a></li>
+                    <li><a href="#">Köşe Takımları</a></li>
+                    <li><a href="#">Kanepe/Koltuk</a></li>
+                    <li><a href="#">İkili Koltuk</a></li>
+                    <li><a href="#">Tekli Koltuk</a></li>
+                    <li><a href="#">Sehpa Takımları</a></li>
+                    <li><a href="#">TV Ünitesi</a></li>
+                </ul>
+            </div>
+            <div class="kategori1">
+                <p>ÇOCUK VE GENÇ ODASI</p>
+                <ul>
+                    <li><a href="#">Genç Odası Takımı</a></li>
+                    <li><a href="#">Genç Odası Dolap</a></li>
+                    <li><a href="#">Bebek Odası Takımı</a></li>
+                    <li><a href="#">Çalışma Masası</a></li>
+                    <li><a href="#">Ranza</a></li>
+                    <li><a href="#">Genç Odası Komodin</a></li>
+                    <li><a href="#">Genç Odası Şifonyer</a></li>
+                    
+                </ul>    
+                
+            </div>
+            <div class="kategori1">
+                <p>YEMEK ODASI</p>
+                <ul>
+                    <li><a href="#">Yemek Odası Takımı</a></li>
+                    <li><a href="#">Mutfak Masa Takımı</a></li>
+                    <li><a href="#">Yemek Masası</a></li>
+                    <li><a href="#">Sandalye</a></li>
+                    <li><a href="#">Konsol</a></li>
+                    <li><a href="#">Konsol Aynası</a></li>
+                    <li><a href="#">Vitrin</a></li>
+                </ul>
+
+            </div>
+            <div class="kategori1">
+                <p>BAHÇE MOBİLYALARI</p>
+                <ul>
+                    <li><a href="#">Mini Bahçe Takımı</a></li>
+                    <li><a href="#">Bahçe Masa Takımları</a></li>
+                    <li><a href="#">Bahçe Köşe Takımları</a></li>
+                    <li><a href="#">Bahçe Masaları</a></li>
+                    <li><a href="#">Bahçe Sehpaları</a></li> 
+                    <li><a href="#">Bahçe Koltukları</a></li>
+                    
+                </ul>    
+            </div>
+            <div class="kategori1">
+                <p>YATAK VE BAZA </p>
+                <ul>
+                    <li><a href="#">Yataklar</a></li>
+                    <li><a href="#">Bebek Yatakları</a></li>
+                    <li><a href="#">Bebek Beşikleri</a></li>
+                    <li><a href="#">Baza</a></li>
+                    <li><a href="#">Yatak Başlığı</a></li>
+                    <li><a href="#">Yatak Başlığı</a></li>
+                </ul>
+
+            </div>
+            <div class="kategori1">
+                <p>TAMAMLAYICI ÜRÜNLER</p>
+                <ul>
+                    <li><a href="#">Portmanto</a></li>
+                    <li><a href="#">TV Sehpası</a></li>
+                    <li><a href="#">Orta Sehpası</a></li>
+                    <li><a href="#">Zigon Sehpa</a></li>
+                    <li><a href="#">Yan Sehpa</a></li>
+                    <li><a href="#">Puf&Puf Koltuk</a></li>
+                    
+                </ul>
+
+            </div>
+            
+        </div>
+        <div class="footerlogo">
+            <h2><center>LOGO</center></h2><br><br>
+            <h3 style="color:white;">Adres  <i class="fa-solid fa-location-dot"></i></h3>
+            <p>Gamze Mobilya Sanayi ve Ticaret A.Ş. Organize Sanayi Bölgesi 16.Cadde No: 2B 38070 Melikgazi Kayseri / TÜRKİYE</p>
+            <br><br>
+            <h4 style="color: white;">Sosyal Medya <i class="fa-solid fa-share-nodes"></i></h4><br>
+            <a href="#" style="color:white;"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" style="color:white;"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" style="color:white;"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#" style="color:white;"><i class="fa-brands fa-twitter"></i></a> 
+            <a href="#" style="color:white;"><i class="fa-brands fa-youtube"></i></a><br><br><br>
+            <h4 style="color: white;">Çağrı Merkezi <i class="fa-solid fa-phone"></i></h4>
+            <p>0546 577 34 54</p>
+            <p>0546 975 34 67</p>
+
+        </div>
+        </div>
+</body>
+</html>

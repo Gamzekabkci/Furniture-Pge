@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color:rgb(46, 82, 70); 
+    width: 100%;
+    height: 50px;
+   
+}
+.navbar ul li{
+    padding: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 30px;
+    
+
+}
+.navbar ul li a:hover{
+    color: rgb(145, 144, 164);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.navbar i{
+    padding-right: 10px;
+}
+.slogan{
+   
+    height: 90px;
+    width: 100%;
+    font-size: larger;
+}
+.katalog{
+    background-color: rgb(174, 219, 192);
+    height: 1100px;
+    width: 250px;
+    float:inline-start;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}
+.footer{
+    background-color: rgb(46, 82, 70);
+    height: 650px;
+    width: 100%;
+    float: inline-start;
+}
+.footerkategori{
+    display:inline-block;
+    height: 500px;
+    width: 900px;
+    margin: 10px 10px 10px 10px;
+    
+    
+}
+.footerlogo{
+    height:465px;
+    width: 400px;
+    display:inline-block;
+    margin: 10px 30px 10px 35px;
+    color: rgb(196, 200, 203);
+}
+.footeriletişim{
+    height: 380px;
+    width: 400px;
+    margin: 10px 10px 30px 35px;
+    background-color: rgb(254, 255, 255);
+    float:inline-start;
+    display: block;
+}
+.kategoribaşlık{
+    margin: 40px 4px 20px 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: rgb(8, 8, 8);
+    
+}
+
+.katalog ul li a:hover{
+    color: rgb(26, 16, 107);
+}
+.katalog ul li a{
+    text-decoration: none;
+    color: rgb(60, 58, 58);
+    font-family:'Times New Roman', Times, serif;
+}
+.katalog ul li{
+    padding: 4px;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 30px;
+    list-style:inside;
+}
+.kategori1{
+    height: 250px;
+    width: 250px;
+    display:inline-block;
+    margin: 20px 20px 20px 20px;
+    
+}
+.kategori1 ul li{
+    list-style:none;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kategori1 ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.kategori1 p{
+    color: rgb(254, 255, 255);
+    font-weight:bold;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kategori1 ul li a:hover{
+    color:rgb(7, 7, 46)
+}
+.gruplar{
+    height: 50px;
+    width: 100%;
+    margin: 30px 30px 0px 0px;
+}
+.gruplar ul li{
+    padding: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size:small;
+}
+.gruplar ul li a{
+    text-decoration: none;
+    color: rgb(136, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.gruplar ul li a:hover{
+    color: #455c4d;
+}
+.başlıkslogan{
+    height: 200px;
+    width: 800px;
+    margin: 40px 40px 10px 40px;
+    padding-left: 30px;
+    font-size:xx-large;
+   font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(60, 13, 13);
+    display:flexbox;
+    font-style: italic;
+}
+.resim{
+    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.resimyazı{
+    height: 50px;
+    width: 400px;
+    background-color: bisque;
+    margin: 30px 50px 0px 50px ;
+    display:inline-block;
+    padding:4px 10px 10px 10px;
+   
+
+}
+.fiyat{
+    font-weight:1000;
+    font-size: x-large;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 6px;
+    padding-left: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.resim img:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.yazı{
+    padding: 6px;
+}
+
+
+.mySlides {display:none;}
+.favoriler{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(174, 208, 196);
+    margin: 20px 0 50px 0;
+    border-style:groove;
+    border-color: rgb(113, 149, 136); 
+    
+}
+.favresim{
+    height: 300px;
+    width: 400px;
+    display: inline-block;
+    
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.favresim p{
+    margin-left: 40px;
+    display: inline;
+}
+.favoribaşlık{
+    font-weight: bold;
+    font-size: medium;
+}
+.resim1{
+    height: 550px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.resim2{
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.yeniürünler{
+    height: 800px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.yeniürünresim{
+    height: 300px;
+    width: 370px;
+
+    display: inline-block;
+    margin: 10px 30px 80px 50px;
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: rgb(204, 198, 198);
+}
+.yeniürünyazı{
+    font-weight: bold;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: rgb(43, 37, 37);
+}
+.yeniürünresim:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gruplar{
+    height: 50px;
+    width: 100%;
+    margin: 30px 30px 0px 0px;
+}
+.gruplar ul li{
+    padding: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    font-size:small;
+}
+.gruplar ul li a{
+    text-decoration: none;
+    color: rgb(136, 135, 135);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.gruplar ul li a:hover{
+    color: #455c4d;
+}
+.hakkımızdayazı{
+    height: 1100px;
+    width:  1100px;
+    margin: 30px 30px 50px 170px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    word-spacing: 10px;
+    color: rgb(60, 56, 56);
+}
+.başlık{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(58, 56, 56);
+}
+.kaydırma-altsayfa{
+    height: 450px;
+    width: 800px;
+    background-color: rgb(95, 128, 128);
+    margin-left: 50px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.fiyat_bilgi{
+    /*background-color: rgb(189, 184, 184);   */
+    height: 430px;
+    width: 450px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+    float:left;
+}
+.ürün_isim {
+    font-weight: bold;
+    font-size:xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgb(88, 84, 84);
+    display: inline-block;
+}
+.fiyat_1{
+    text-decoration: line-through;
+    display:inline;
+    font-size:20px;
+    font-weight: 30px;
+    margin: 40px 20px 20px 20px;
+}   
+.fiyat_2{
+    display:inline;
+    font-size:35px;
+    font-weight: 900;
+    margin: 40px 20px 10px 20px;
+}
+.button_sepeteekle {
+background-color: #053625;
+color: white;
+padding: 14px 20px;
+margin: 8px 20px 10px 40px;
+border: none;
+cursor: pointer;
+width: 350px;
+}
+button:hover {
+opacity: 0.8;
+}
+.ürün_tablo{
+font-family:Arial, Helvetica, sans-serif;
+font-size: medium;
+
+}
+.ürün_tablo2{
+font-size:small;
+margin-top: 10px;
+}
+
+.altsayfa_resim{
+   
+    /*background-color: rgb(95, 128, 128); */
+    height: 480px;
+    width: 650px;
+    margin: 50px 80px 100px 50px;
+    float:left;
+}
